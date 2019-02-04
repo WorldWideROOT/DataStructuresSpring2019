@@ -26,7 +26,7 @@ public class Loops {
 		System.out.println(); 
 			
 		// print the numbers in the decreasing order:
-		for(i = n; i >= 0; i--) { //i++ is a shortcut for i = i + 1
+		for(i = n; i >= 0; i--) { //i-- is a shortcut for i = i - 1
 			System.out.print(i + " ");
 		}
 		System.out.println();
