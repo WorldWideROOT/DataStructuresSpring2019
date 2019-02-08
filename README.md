@@ -9,6 +9,7 @@ Examples and materials for Data Structures 2019 course
 * [Switch statement](JavaExamples/Switch.java)
 * [Switch statement on strings, added in Java 7](JavaExamples/SwitchStrings.java)
 * [Methods (functions) in Java](JavaExamples/Methods.java)
+* [Java Stack class](JavaExamples/TestStack.java)
 
 
 

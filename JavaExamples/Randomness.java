@@ -6,7 +6,7 @@ public class Randomness {
 		Random rand = new Random(); // create a random number generator
 		
 		// Change this program so that it has a different probability
-                // of rain, such as 3/8 (pick your own)
+        // of snow, such as 3/8 (pick your own)
 		
 		System.out.println("Will it snow tonight?");
 		
