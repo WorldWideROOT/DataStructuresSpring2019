@@ -18,9 +18,11 @@ public class MatchingParentheses {
 	 * (overlapping parentheses and braces) }{ (a closing brace before an opening
 	 * one) a(b(c) (missing a closing parenthesis)
 	 *
-	 * The program prints the given string and the word "valid" or "invalid". If the
-	 * string is invalid, additionally a brief message is printed indicating what
-	 * the problem is. For instance, when an opening parenthesis doesn't have a
+	 * The program prints the given string and the word "valid" or "invalid". 
+	 * 
+	 * For extra credit: If the string is invalid, additionally a brief message is 
+	 * printed indicating what the problem is. 
+	 * For instance, when an opening parenthesis doesn't have a
 	 * closing one, a message might say "Missing a closing parenthesis".
 	 */
 
