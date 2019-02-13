@@ -15,8 +15,9 @@ public class Recursion {
 	 * Parameters: integer n Returns: n! for non-negative n, 1 for negative n
 	 **/
 	public static int factorial(int n) {
-		if (n <= 1)
+		if (n <= 1) {
 			return 1;
+		}
 		return n * factorial(n - 1);
 	}
 	
