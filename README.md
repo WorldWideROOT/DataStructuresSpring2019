@@ -13,6 +13,8 @@ Examples and materials for Data Structures 2019 course
 * [How to convert from a digit character to a number](JavaExamples/ConvertingDigitToNumber.java)
 * [Postfix calculator (starting point)](JavaExamples/PostfixCalculator.java)
 * [Matching parentheses (starting point)](JavaExamples/MatchingParentheses.java)
+* [Sharing objects and passing objects to methods](JavaExamples/ShareStacks.java)
+* [Recursion](JavaExamples/Recursion.java)
 
 
 
