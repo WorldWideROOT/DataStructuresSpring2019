@@ -15,6 +15,8 @@ Examples and materials for Data Structures 2019 course
 * [Matching parentheses (starting point)](JavaExamples/MatchingParentheses.java)
 * [Sharing objects and passing objects to methods](JavaExamples/ShareStacks.java)
 * [Recursion](JavaExamples/Recursion.java)
+* [Integer Arrays](JavaExamples/IntArray.java)
+* [Person class](JavaExamples/Person.java), [its tests](JavaExamples/TestPerson.java)
 
 
 
