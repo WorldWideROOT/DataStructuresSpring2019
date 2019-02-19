@@ -23,7 +23,7 @@ public class PostfixCalculator {
 	 * Optional features to implement: error messages when the
 	 * input is not well-formed to indicate what went wrong. For instance,
 	 * when there are not operands, such as 657+, your program
-	 * can print something like: "Missing an operand." 
+	 * can print something like: "Missing an operator." 
 	 * Note that this is a difficult problem since you don't always have
 	 * enough information to explain what the error is. 
 	 **/

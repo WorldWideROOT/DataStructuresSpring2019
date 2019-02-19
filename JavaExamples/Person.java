@@ -24,7 +24,7 @@ public class Person {
 		// check if the year is valid, exit the program if
 		// it's not. We will learn a better approach to error
 		// handling later, but this will do for now
-		if (year < 0 || year > 2017) {
+		if (year < 0 || year > 2019) {
 			System.out.println("invalid year");
 			System.exit(0);
 		}
