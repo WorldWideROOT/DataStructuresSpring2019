@@ -17,6 +17,9 @@ Examples and materials for Data Structures 2019 course
 * [Recursion](JavaExamples/Recursion.java)
 * [Integer Arrays](JavaExamples/IntArray.java)
 * [Person class](JavaExamples/Person.java), [its tests](JavaExamples/TestPerson.java)
+* [The testing class for the Card class for the lab](JavaExamples/TestCard.java)
+* [An array of strings](JavaExamples/StringArray.java)
+* [Introduction to Java array lists](JavaExamples/TestArrayList.java)
 
 
 
