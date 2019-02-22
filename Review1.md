@@ -4,6 +4,52 @@
 Find and correct all errors in the follwoing
 Java program. The method needs to work as described.
 ```java
+import java.util.Stack;
+
+public class CorrectErrors {
+    // correct all mistakes in the following program:
+    public static void main(String [] args) {
+    	Stack<String> stack = new Stack<>();
+    	stack.push(1);
+    	stack.push(2);
+    	stack.push(3);
+    	
+    	// should print true
+    	System.out.println(hasNumber(stack, 2));
+    	// should print the stack as it was
+    	System.out.println(stack);
+    	
+    	// should print false
+    	System.out.println(hasNumber(stack, 4));
+    	// should print the stack as it was
+    	System.out.println(stack);
+    }
+    
+    /**
+     * The method takes a stack and a number n
+     * and returns true if the stack has n and false otherwise.
+     **/
+    
+    public static boolean hasNumber(Stack<Integer> stack, int n) {
+    	Stack<Integer> holder = new Stack<>();
+    	
+    	while(!holder.empty()) {
+    		int top = stack.pop();
+    		if (top == n) {
+    			return true;
+    		}
+    		else {
+    			top = stack.pop();
+    			holder.push();
+    		}
+    	}
+    	
+    	while (holder.empty()) {
+    		stack.push(holder.pop());
+    	}
+    	
+    }
+}
 
 ```
 
