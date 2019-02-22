@@ -20,6 +20,7 @@ Examples and materials for Data Structures 2019 course
 * [The testing class for the Card class for the lab](JavaExamples/TestCard.java)
 * [An array of strings](JavaExamples/StringArray.java)
 * [A 2-dimensional array](JavaExamples/Chess.java)
+* [Review of stacks]((JavaExamples/ReviewStacks.java)
 * [Introduction to Java array lists](JavaExamples/TestArrayList.java)
 * [Exercise on array lists](JavaExamples/MostFrequentElement.java)
 
