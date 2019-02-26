@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class TestArrayList {
 	public static void main(String[] args) {
 		// create an empty array list:
-		ArrayList<String> strings = new ArrayList<String>();
+		ArrayList<String> strings = new ArrayList<>();
 
 		// no elements in the array list
 		System.out.println(strings.size());

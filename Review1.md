@@ -1,7 +1,7 @@
 # Review questions for the first exam
 
 ## Find and correct all errors
-Find and correct all errors in the follwoing
+Find and correct all errors in the following
 Java program. The method needs to work as described.
 ```java
 import java.util.Stack;
