@@ -24,9 +24,11 @@ Examples and materials for Data Structures 2019 course
 * [More review questions](Review1.md)
 * [Introduction to Java array lists](JavaExamples/TestArrayList.java)
 * [Exercise on array lists](JavaExamples/MostFrequentElement.java)
+* [Java interfaces (project)](Interfaces)
+* [Java exceptions (how to write your own exceptions)](Exceptions)
 
 ## Card game starting code ##
 
 [Card Project](CardProject)
-
+[Linked list starting code](LinkedList)
 
