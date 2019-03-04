@@ -29,6 +29,6 @@ Examples and materials for Data Structures 2019 course
 
 ## Card game starting code ##
 
-[Card Project](CardProject)
-[Linked list starting code](LinkedList)
+* [Card Project](CardProject)
+* [Linked list starting code](LinkedList)
 
