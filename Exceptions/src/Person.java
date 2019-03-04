@@ -22,9 +22,8 @@ public class Person {
             throws InvalidYearException { // The method throws an invalid year exception
         firstName = first;
         lastName = last;
-        // check if the year is valid, exit the program if
-        // it's not. We will learn a better approach to error
-        // handling later, but this will do for now
+        // check if the year is valid, throw an exception
+        // if it's not
         if (year < 0 || year > 2019) {
             throw new InvalidYearException(year);
         }

@@ -5,7 +5,7 @@
 
 public class TestOurLinkedList {
     public static void main(String [] args) throws ListIndexOutOfBoundsException {
-        OurList<String> strings = new OurLinkedList<String>();
+        OurList<String> strings = new OurLinkedList<>();
 
         // the list should be empty initially
         System.out.println("A newly-created list:");

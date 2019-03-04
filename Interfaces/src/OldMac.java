@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class OldMac {
     public static void main(String [] args) {
-        ArrayList<Animal> animals = new ArrayList<Animal>();
+        ArrayList<Animal> animals = new ArrayList<>();
         animals.add(new Duck());
         animals.add(new Cow());
         animals.add(new Pig());
@@ -22,7 +22,7 @@ public class OldMac {
                 "With a " + sound + ", " + sound + " here,\n" +
                 "And a " +  sound + ", " + sound + " there,\n" +
                 "Here a " + sound + ", there a " + sound +",\n" +
-                "Everywhere a  " +  sound + ", " + sound + ",\n" +
+                "Everywhere a " +  sound + ", " + sound + ",\n" +
                 "Old Mac Donald had a farm,\n" +
                 "E-I-E-I-O";
         System.out.println(verse + "\n");
