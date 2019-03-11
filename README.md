@@ -26,9 +26,13 @@ Examples and materials for Data Structures 2019 course
 * [Exercise on array lists](JavaExamples/MostFrequentElement.java)
 * [Java interfaces (project)](Interfaces)
 * [Java exceptions (how to write your own exceptions)](Exceptions)
+* [Iterable interface](Iterable)
 
 ## Card game starting code ##
 
 * [Card Project](CardProject)
+
+## Other projects ##
+
 * [Linked list starting code](LinkedList)
 
