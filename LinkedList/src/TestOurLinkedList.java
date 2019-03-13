@@ -16,6 +16,8 @@ public class TestOurLinkedList {
 
         strings.add(0,"hello");
 
+        System.out.println(strings);
+
         // the list after adding an element
         System.out.println("A list with one element:");
         // expected: false
@@ -28,6 +30,8 @@ public class TestOurLinkedList {
 
         // the list after adding 3 elements
         System.out.println("A list with three elements:");
+        // using toString to print the list:
+        System.out.println(strings);
         // expected: false
         System.out.println("List isEmpty is "+ strings.isEmpty());
         //expected: The size of the list is 3
@@ -49,5 +53,7 @@ public class TestOurLinkedList {
         }
 
         //much more testing is needed!
+
+        System.out.println(strings);
     }
 }
