@@ -27,7 +27,8 @@ Examples and materials for Data Structures 2019 course
 * [Java interfaces (project)](Interfaces)
 * [Java exceptions (how to write your own exceptions)](Exceptions)
 * [Java inheritance example: Stack and Vector](JavaExamples/VectorStackExample.java)
-* [Iterable interface](Iterable)
+* [Iterable interface](Iterable), Examples of iterable classes and interfaces:
+[An artificial example of making a string iterable](Iterable/IterableString.java), [Iterable Fibonacci](Iterable/IterableFibonacci.java), [testing class for the two iterable examples](Iterable/TestIterable.java)
 
 ## Card game starting code ##
 
