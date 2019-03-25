@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="116de12f-6db0-4aa9-a9a5-95f8fc1ce12e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaExamples/UsingJavaSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PriorityQueue/src/OurPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PriorityQueue/src/OurQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PriorityQueue/src/TestPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PriorityQueue/src/UnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PriorityQueue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PriorityQueue/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

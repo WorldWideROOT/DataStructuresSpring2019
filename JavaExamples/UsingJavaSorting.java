@@ -5,12 +5,16 @@
    This approach works on arrays of any type T that implement 
    Comparable<T> (i.e. objects that are comparable to themselves).
    The Java Arrays.sort method calls compareTo to find out the
-   order of the objects. 
+   order of the objects.
+   Similarly Collections.sort can be used to sort an ArrayList or
+   any other data structure that implements List interface.
    *
    * @author Elena Machkasova for CSCi 2101
    *
  **/
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Random;
 
 public class UsingJavaSorting {
@@ -42,7 +46,7 @@ public class UsingJavaSorting {
 			numbers[i] = rand.nextInt(10);
 		}
 
-		System.out.println("Before sorting:");
+		System.out.println("Array before sorting:");
 		for (int number: numbers) {
 			System.out.print(number + " ");
 		}
@@ -50,12 +54,32 @@ public class UsingJavaSorting {
 		
 		Arrays.sort(numbers);
 		
-		System.out.println("After sorting:");
+		System.out.println("Array after sorting:");
 		for (int number: numbers) {
 			System.out.print(number + " ");
 		}
 		System.out.println(); // new line
-		
+
+		// Sorting an array list
+		ArrayList<Integer> numbers2 = new ArrayList<>();
+
+		for (int i = 0; i < 100; ++i) {
+			numbers2.add(rand.nextInt(10));
+		}
+
+		System.out.println("Array list before sorting:");
+		for (int number: numbers2) {
+			System.out.print(number + " ");
+		}
+		System.out.println(); // new line
+
+		Collections.sort(numbers2);
+
+		System.out.println("Array list after sorting:");
+		for (int number: numbers2) {
+			System.out.print(number + " ");
+		}
+		System.out.println(); // new line
 	}
 
 }
