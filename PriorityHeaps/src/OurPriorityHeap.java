@@ -8,7 +8,7 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class OurPriorityHeap<E> implements OurQueue<E> {
+public class OurPriorityHeap<E extends Comparable<E>> implements OurQueue<E> {
 
     @Override
     public int size() {
