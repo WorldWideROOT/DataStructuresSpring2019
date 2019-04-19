@@ -40,6 +40,7 @@ Examples of iterable classes and interfaces:
 * [Sorting - starting code](Sorting) - uses JUnit testing, includes insertion sort
 * [Starting code for heap-based implementation of priority queue](PriorityHeaps)
 * [Starting code for binary search tree (not balanced)](BinarySearchTree)
+* [Binary Search Tree work-in-progress, with starting code for traversals](BinarySearchTreeWIP)
 
 ## Review ##
 * [Some files for the second midterm review](Review2)
