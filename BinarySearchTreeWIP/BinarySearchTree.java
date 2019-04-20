@@ -48,7 +48,7 @@ public class BinarySearchTree<K extends Comparable<K>, V> {
             size++;
         }
         while(running){
-            if(current.key.compareTo(key) < 0){
+            if(current.key.compareTo(key) >= 0){
                 if(current.left == null){
                     current.left = newNode;
                     size++;
@@ -57,7 +57,7 @@ public class BinarySearchTree<K extends Comparable<K>, V> {
                     current = current.left;
                 }
             }
-            if(current.key.compareTo(key) >= 0){
+            if(current.key.compareTo(key) < 0){
                 if(current.right == null){
                     current.right = newNode;
                     size++;
@@ -141,7 +141,13 @@ public class BinarySearchTree<K extends Comparable<K>, V> {
 
         //
         public void inOrder(ArrayList<KVPair<K,V>> result) {
-
+            if (left != null) {
+                left.inOrder(result);
+            }
+            result.add(new KVPair<K,V>(key, value));
+            if (right != null) {
+                right.inOrder(result);
+            }
         }
 
     }
