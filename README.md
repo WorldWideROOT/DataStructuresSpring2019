@@ -31,7 +31,7 @@ Examples and materials for Data Structures 2019 course
 Examples of iterable classes and interfaces:
 [An artificial example of making a string iterable](Iterators/src/IterableString.java), [Iterable Fibonacci](Iterators/src/IterableFibonacci.java), [testing class for the two iterable examples](Iterators/src/TestIterable.java)
 * [Using Java sorting for Comparable classes](JavaExamples/UsingJavaSorting.java)
-* [Abstract classes)(AbstractClassesExample)
+* [Abstract classes](AbstractClassesExample)
 
 ## Projects starting code ##
 
