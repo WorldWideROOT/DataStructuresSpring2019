@@ -8,9 +8,9 @@ import org.junit.Test;
 
 
 public class TestHashtables {
-    OurHashtable<Integer, String> emptyTable = new HashtableSeparateChaining<Integer, String>();
-    OurHashtable<Integer, String> fourElementTable = new HashtableSeparateChaining<Integer, String>();
-    OurHashtable<Integer, String> repeatedKeysTable= new HashtableSeparateChaining<Integer, String>();
+    OurHashtable<Integer, String> emptyTable = new HashtableSeparateChaining<>();
+    OurHashtable<Integer, String> fourElementTable = new HashtableSeparateChaining<>();
+    OurHashtable<Integer, String> repeatedKeysTable= new HashtableSeparateChaining<>();
 
 
     @Before

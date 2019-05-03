@@ -1,5 +1,12 @@
-import java.util.ArrayList;
+/**
+ * A hashtable example for CSci 2101
+ * @author Elena Machkasova
+ *
+ * @param <K> - key type
+ * @param <V> - value type
+ */
 
+import java.util.ArrayList;
 
 public class HashtableSeparateChaining<K, V> implements OurHashtable<K,V> {
     private int numberBuckets; // the number of "buckets", default 20
